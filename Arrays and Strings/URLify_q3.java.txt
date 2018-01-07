@@ -1,0 +1,18 @@
+public class URLify_q3 {
+    public static void main(String args[])
+    {
+        System.out.println(urlify("John Smith  ",13));
+    }
+
+    public static String urlify(String str, int length) {
+        String[] split_str = str.split(" ");
+        StringBuilder new_string = new StringBuilder(split_str[0]);
+
+        for (int i = 1; i < split_str.length; ++i) {
+            new_string.append("%20");
+            new_string.append(split_str[i]);
+        }
+
+        return new_string.toString();
+    }
+}
