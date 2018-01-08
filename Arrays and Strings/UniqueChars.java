@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class UniqueChars_q1 {
+public class UniqueChars {
     public static void main(String[] args)
     {
         System.out.println(checkuniquechars("qwerty"));

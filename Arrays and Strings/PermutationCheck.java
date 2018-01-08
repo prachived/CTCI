@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class PermutationCheck_q2 {
+public class PermutationCheck {
     public static void main(String args[])
     {
 
